@@ -1,0 +1,271 @@
+/*==========================================================*/
+/*                   ESTILOS GENERALES                      */
+/*==========================================================*/
+
+/*----- FUENTES -----*/
+.font1 {
+	font-family: 'quicksandbold';
+}
+
+.font2 {
+	font-family: 'ballet_harmonyballet_harmony';
+}
+
+.font3{
+	font-family: 'bebas_neueregular';
+}
+
+
+/*----- PARALLAX -----*/
+.parallax-mirror{
+	max-height:900px;
+}
+
+
+.relative{
+	position: relative;
+}
+
+
+
+
+
+/*==========================================================*/
+/*					BARRA DE NAVEGACIÓN						*/
+/*==========================================================*/
+
+/*----- ÁREA DE LA BARRA DE NAVEGACIÓN -----*/
+.sticky-wrapper{
+	position:absolute;
+	width:100%;
+}
+
+.sticky-wrapper.is-sticky .default-header{
+	background:#812e2e;
+	box-shadow:-1px 1px 90px 0px rgba(158,158,158,0.3);
+}
+
+.default-header{
+	position:absolute;
+	width:100%;
+	z-index:9;
+	background:transparent;
+}
+
+@media (max-width: 991px){
+	.default-header{
+		background:#812e2e;
+	}
+}
+
+.default-header .navbar{
+	padding:10px 16px;
+}
+
+
+
+
+/*----- BOTÓN COLAPSABLE -----*/
+.default-header .navbar .navbar-toggler{
+	border:1px solid #fff;
+	border-color:#fff;
+	cursor:pointer;
+}
+
+.default-header .navbar .navbar-toggler:focus{
+	outline:none;
+}
+
+.default-header .navbar .navbar-toggler span{
+	color:#fff;
+}
+
+
+
+
+/*----- ENLACES DE LA BARRA DE NAVEGACIÓN -----*/
+.navbar-nav a{
+	font-size:14px;
+	color: #aca49e;
+	padding: 0px 20px;
+	text-decoration: none;
+}
+
+.navbar-nav a:hover,.navbar-nav a.active{
+	color:#fff;
+}
+
+
+
+
+/*----- ADECUACIONES PARA DIFERENTES DISPOSITIVOS -----*/
+@media (max-width: 992px){
+	.navbar-nav{
+		margin-top:10px;
+	}
+}
+
+
+
+
+/*----- LOGO Y BRAND DE LA BARRA DE NAVEGACIÓN SUPERIOR -----*/
+.navbar-logo{
+	padding-left: 10px;
+}
+
+.navbar-logo-img{
+	width: 50px;
+}
+
+.my-brand a{
+	font-size: 28px;
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 2px 1px 5px #4ba206;
+}
+
+
+
+
+
+
+
+
+
+/*==========================================================*/
+/*				PRIMERA SECCIÓN: TÍTULO PRINCIPAL			*/
+/*==========================================================*/
+
+/*----- ÁREA DE LA SECCION PRINCIPAL -----*/
+@media (max-width: 425px){
+	.home-banner-area{
+		max-height:143vh;
+	}
+}
+
+.home-banner-area .fullscreen{
+	height:130vh;
+}
+
+@media (max-width: 1199.98px){
+	.home-banner-area .fullscreen{
+		height:130vh;
+	}
+}
+
+.div-title{
+	height: 40%;
+}
+
+@media (max-width: 425px){
+	.div-title{
+		height:60%;
+	}
+}
+
+@media (max-width: 1199.98px){
+	.div-title{
+		height:60%;
+	}
+}
+
+
+
+/*----- TÍTULO PRINCIPAL -----*/
+.main-title{
+	display: flex;
+	align-items: center;
+	vertical-align: middle;
+}
+
+/*----- Fuentes del título principal -----*/
+.main-title h1{
+	font-size: 80px;
+	color: #deccb8;
+	text-shadow: 2px 1px 5px #812e2e
+}
+
+.main-title h2{
+	font-size: 50px;
+	color: #deccb8;
+	text-shadow: 2px 1px 5px #812e2e
+}
+
+.main-title h5{
+	font-size: 30px;
+	color: #deccb8;
+	text-shadow: 2px 1px 5px #812e2e
+}
+
+.main-title hr{
+	width: 90%;
+    margin: 4vh auto 7vh auto;
+    border: none;
+    border-bottom: solid 1px #eb0000;
+    border-image: linear-gradient(to right,#b9624f, #974B3C, #812e2e);
+    border-image-slice: 1;
+}
+
+
+
+
+
+
+
+/*==========================================================*/
+/*                   		FOOTER		                    */
+/*==========================================================*/
+
+/*----- Área del footer -----*/
+.footer-area{
+	background:#812e2e;
+	padding: 100px 0px 10px 0px;
+}
+
+@media (max-width: 991px){
+	.footer-area{
+		padding:80px 0px 10px 0px;
+	}
+}
+
+
+
+/*----- ESTILO DE FUENTES DEL FOOTER -----*/
+.my-footer h2{
+	color: #DECCB8;
+}
+
+.my-footer p, a, td{
+	color: #DECCB8;
+}
+
+.my-footer a{
+	text-decoration: none;
+}
+
+.my-footer a:hover{
+	color: #fff;
+}
+
+.my-footer li{
+	color: #DECCB8;
+}
+
+.logo-footer{
+	width: 110px;
+	display: block;
+	margin: 0 auto;
+}
+
+#CR{
+	font-size: 12px;
+	color: #aca49e;
+}
+
+.CR hr{
+	width: 90%;
+    margin: 4vh auto 7vh auto;
+    border: none;
+    border-bottom: solid 1px #aca49e;
+    border-image-slice: 1;
+}
