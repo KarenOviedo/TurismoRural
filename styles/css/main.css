@@ -15,6 +15,10 @@
 	font-family: 'bebas_neueregular';
 }
 
+.font4{
+	font-family: 'vogueregular';
+}
+
 
 /*----- PARALLAX -----*/
 .parallax-mirror{
@@ -22,8 +26,21 @@
 }
 
 
+/*----- SECCIONES DE SEPARACIÓN CON IMAGEN -----*/
+.parallax-window {
+    min-height: 150px;
+    background: transparent;
+}
+
 .relative{
 	position: relative;
+}
+
+
+.btn-centro{
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
 
 
@@ -43,6 +60,7 @@
 .sticky-wrapper.is-sticky .default-header{
 	background:#812e2e;
 	box-shadow:-1px 1px 90px 0px rgba(158,158,158,0.3);
+	width: 100%;
 }
 
 .default-header{
@@ -55,11 +73,13 @@
 @media (max-width: 991px){
 	.default-header{
 		background:#812e2e;
+		width: 100%;
 	}
 }
 
 .default-header .navbar{
 	padding:10px 16px;
+	width: 100%;
 }
 
 
@@ -118,7 +138,7 @@
 }
 
 .my-brand a{
-	font-size: 28px;
+	font-size: 18px;
 	text-decoration: none;
 	color: #fff;
 	text-shadow: 2px 1px 5px #4ba206;
@@ -139,35 +159,37 @@
 /*----- ÁREA DE LA SECCION PRINCIPAL -----*/
 @media (max-width: 425px){
 	.home-banner-area{
-		max-height:143vh;
+		height:100vh;
 	}
 }
 
 .home-banner-area .fullscreen{
-	height:130vh;
+	height:100vh;
 }
 
 @media (max-width: 1199.98px){
 	.home-banner-area .fullscreen{
-		height:130vh;
+		height:100vh;
 	}
 }
 
 .div-title{
-	height: 40%;
+	height: 30%;
 }
 
 @media (max-width: 425px){
 	.div-title{
-		height:60%;
+		height:50%;
 	}
 }
 
 @media (max-width: 1199.98px){
 	.div-title{
-		height:60%;
+		height:50%;
 	}
 }
+
+
 
 
 
@@ -213,6 +235,177 @@
 
 
 /*==========================================================*/
+/*                   	SEGUNDA SECCIÓN		                */
+/*==========================================================*/
+
+/*----- Área de la segunda sección -----*/
+.sec-2-area{
+	width: 100%;
+	background-color: #fff;
+	padding: 40px 0px 40px 0px;
+	min-height: 90vh;
+}
+
+.sec-2-txt{
+    padding-right: 50px;
+    height: auto;
+}
+
+@media (max-width: 991px){
+	.sec-2-area{
+		padding:40px 0px 40px 0px;
+		min-height: 90vh;
+	}
+	.sec-2-txt{
+		padding-right: 15px;
+	}
+}
+
+.sec-2-txt h2{
+	text-align: center;
+}
+
+/*----- LÍNEA DIVISORIA -----*/
+.sec-2-txt hr{
+	border-color: #812e2e;
+	width: 80%
+}
+
+
+/*----- LINK/BOTÓN DE LA SEGUNDA SECCIÓN -----*/
+.sec-2-area a{
+	background-color: #812e2e;
+  	color: white;
+	border-radius: 5rem;
+	font-family: 'bebas_neueregular';
+	font-size: 16px;
+	padding: 7px 30px;
+	text-align: center;
+	text-decoration: none;
+	cursor: pointer;
+	letter-spacing: 2px;
+	width: auto;
+	display: flex;
+	justify-content: center;
+}
+
+.sec-2-area a:hover {
+  background-color: #ae3e3e;
+  color: white;
+}
+
+
+
+/*----- CARRUSEL -----*/
+.div-my-carr{
+	height: auto;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+.my-carr{
+	height: 600px;
+}
+
+.my-carr-img{
+	height: 600px;
+	margin: 0 auto;
+}
+
+@media (max-width: 991px){
+	.div-my-carr{
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+	.my-carr{
+		height: 400px;
+	}
+	.my-carr-img{
+		height: 400px;
+	}
+}
+
+
+/*==========================================================*/
+/*                   	TERCERA SECCIÓN		                */
+/*==========================================================*/
+
+/*----- Área de la tercera sección -----*/
+.sec-3-area{
+	width: 100%;
+	min-height: 80vh;
+}
+
+.cont-sec-3{
+	margin: 0px 0px 0px 0px !important;
+}
+
+.row-sec-3{
+	display: flex;
+	align-items: center;
+	vertical-align: middle;
+	height: 100%;
+}
+
+
+
+/*----- TÍTULO DE SECCIÓN -----*/
+.sec-3-uno{
+	float: left;
+	height: auto;
+}
+
+.sec-3-uno h1{
+	color: white;
+	letter-spacing: 2px;
+	text-align: center;
+}
+
+
+/*----- TEXTO DE SECCIÓN -----*/
+.sec-3-dos{
+    padding: 50px;
+    background-color: black;
+	opacity: 0.5;
+	color: #fff;
+	min-height: 80vh;
+}
+
+.sec-3-dos p{
+	font-size: 24px;
+	line-height: 40px;
+}
+
+.sec-3-dos li{
+	font-size: 20px;
+}
+
+.sec-3-dos a{
+	font-size: 18px;
+	padding-left: 5px;
+}
+
+
+
+/*----- ADECUACIONES PARA MÓVILES -----*/
+@media (max-width: 991px){
+	.sec-3-area{
+		height: auto;
+	}
+	.sec-3-dos{
+		padding: 15px;
+	}
+	.sec-3-dos li{
+		font-size: 18px;
+	}
+}
+
+
+
+
+
+
+/*==========================================================*/
 /*                   		FOOTER		                    */
 /*==========================================================*/
 
@@ -237,6 +430,7 @@
 
 .my-footer p, a, td{
 	color: #DECCB8;
+	font-size: 14px;
 }
 
 .my-footer a{
