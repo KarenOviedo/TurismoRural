@@ -106,7 +106,7 @@
 /*----- ENLACES DE LA BARRA DE NAVEGACIÓN -----*/
 .navbar-nav a{
 	font-size:14px;
-	color: #aca49e;
+	color: #deccb8;
 	padding: 0px 20px;
 	text-decoration: none;
 }
@@ -462,4 +462,186 @@
     border: none;
     border-bottom: solid 1px #aca49e;
     border-image-slice: 1;
+}
+
+
+
+
+
+
+
+
+
+							/* PÁGINAS SECUNDARIAS */
+/*============================================================================*/
+/*============================================================================*/
+
+
+/*==========================================================*/
+/*			TÍTULO PRINCIPAL PARA PÁGINAS SECUNDARIAS		*/
+/*==========================================================*/
+
+/*----- ÁREA DEL BANNER SUPERIOR-----*/
+@media (max-width: 425px){
+	.sec-banner-area{
+		height:40vh;
+	}
+}
+
+.sec-banner-area .fullscreen{
+	height:40vh;
+}
+
+@media (max-width: 1199.98px){
+	.sec-banner-area .fullscreen{
+		height:40vh;
+	}
+}
+
+.div-sec-title{
+	height: 30%;
+	position: absolute;
+	bottom: 40px;
+	margin: 0 auto;
+}
+
+@media (max-width: 425px){
+	.div-sec-title{
+		height:50%;
+		bottom: 10px;
+	}
+}
+
+@media (max-width: 1199.98px){
+	.div-sec-title{
+		height:50%;
+		bottom: 10px;
+	}
+}
+
+
+
+/*----- TÍTULO PRINCIPAL -----*/
+.sec-title{
+	position: relative;
+	display: flex;
+	align-items: center;
+	vertical-align: middle;
+}
+
+/*----- Fuentes del título principal -----*/
+.sec-title h2{
+	font-size: 50px;
+	color: #deccb8;
+	text-shadow: 2px 1px 5px #812e2e;
+	letter-spacing: 3px;
+}
+
+
+
+
+
+/*==========================================================*/
+/*       SECCIÓN DE CONTENIDO PARA PÁGINAS SECUNDARIAS		*/
+/*==========================================================*/
+
+/*----- Área de la segunda sección -----*/
+.cont-sec-area{
+	width: 100%;
+	background-color: #fff;
+	padding: 40px 0px 40px 0px;
+	min-height: 90vh;
+}
+
+.cont-sec-txt{
+    height: auto;
+}
+
+@media (max-width: 991px){
+	.cont-sec-area{
+		padding:40px 0px 40px 0px;
+		min-height: 90vh;
+	}
+}
+
+.cont-sec-txt h2{
+	text-align: center;
+}
+
+/*----- LÍNEA DIVISORIA -----*/
+.cont-sec-txt hr{
+	border-color: #812e2e;
+	width: 80%
+}
+
+
+/*----- LINK/BOTÓN DE LA SEGUNDA SECCIÓN -----*/
+.cont-sec-area a{
+  	color: #812e2e;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+
+
+/*----- CARRUSEL DE HOSPEDAJE Y EXPERIENCIAS -----*/
+.cont-sec-carr-br{
+	border-right: 1px solid #DECCB8;
+}
+
+.cont-sec-carr-txt p{
+	font-size: 14px;
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23a33' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23a33' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+
+/*----- Controles para Hospedaje -----*/
+.carr-prev a{
+	height: 100%;
+	width: 100%;
+}
+
+.carr-next a{
+	height: 100%;
+	width: 100%;
+}
+
+
+
+
+
+
+
+/*									CALENDARIO									  */
+/*================================================================================*/
+/*================================================================================*/
+
+
+
+
+
+
+
+
+
+/*										ABOUT									  */
+/*================================================================================*/
+/*================================================================================*/
+
+.table-contacto td{
+	color: black;
+}
+
+
+.table-contacto {
+   margin: 0 auto !important;
+   width: 50% !important; 
 }
