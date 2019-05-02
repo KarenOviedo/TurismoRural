@@ -111,11 +111,115 @@
 
 
 			<!-- CALENDARIO -->
-			<div class="row" style="border: 1px solid red; height: 100px;">
-				
-			</div>
-			<!-- FIN CALENDARIO -->
+			<div class="container">
+		         <div class="row calendar-btn">
+		         	<div class="col-lg-11">
+			            <button class="btn" id="previous" onclick="previous()" style="float: left;"><span class="fa fa-chevron-left"></button>
+		         	</div>
+		         	<div class="col-lg-1">
+			            <button class="btn" id="next" onclick="next()" style="float: right;"><span class="fa fa-chevron-right"></span></button>
+		         	</div>
+		        </div>
 
+
+
+			    <div class="row card">
+			        <h3 class="card-header" id="monthAndYear"></h3>
+			        <table class="table table-bordered table-responsive-sm calendar-table" id="calendar">
+			            <thead>
+			            <tr class="calendar-top">
+			                <th>DOM</th>
+			                <th>LUN</th>
+			                <th>MAR</th>
+			                <th>MIE</th>
+			                <th>JUE</th>
+			                <th>VIE</th>
+			                <th>SAB</th>
+			            </tr>
+			            </thead>
+			            <tbody id="calendar-body">
+			            	<!-- IMPORTANTE, NO BORRAR -->
+			            </tbody>
+			        </table>			        
+			    </div>
+
+
+			    <br><br>
+
+
+
+			    <div class="row">
+			    	<div class="calendar-form">
+				    	<form class="form-inline ">
+				            <label class="lead mr-2 ml-2" for="month">Ir a: </label>
+				            <select class="form-control" name="month" id="month" onchange="jump()">
+				                <option value=0>Enero</option>
+				                <option value=1>Febrero</option>
+				                <option value=2>Marzo</option>
+				                <option value=3>Abril</option>
+				                <option value=4>Mayo</option>
+				                <option value=5>Junio</option>
+				                <option value=6>Julio</option>
+				                <option value=7>Agosto</option>
+				                <option value=8>Septiembre</option>
+				                <option value=9>Octubre</option>
+				                <option value=10>Noviembre</option>
+				                <option value=11>Diciembre</option>
+				            </select>
+
+
+				            <label for="year"></label>
+				            <select class="form-control" name="year" id="year" onchange="jump()">
+					            <option value=1990>1990</option>
+					            <option value=1991>1991</option>
+					            <option value=1992>1992</option>
+					            <option value=1993>1993</option>
+					            <option value=1994>1994</option>
+					            <option value=1995>1995</option>
+					            <option value=1996>1996</option>
+					            <option value=1997>1997</option>
+					            <option value=1998>1998</option>
+					            <option value=1999>1999</option>
+					            <option value=2000>2000</option>
+					            <option value=2001>2001</option>
+					            <option value=2002>2002</option>
+					            <option value=2003>2003</option>
+					            <option value=2004>2004</option>
+					            <option value=2005>2005</option>
+					            <option value=2006>2006</option>
+					            <option value=2007>2007</option>
+					            <option value=2008>2008</option>
+					            <option value=2009>2009</option>
+					            <option value=2010>2010</option>
+					            <option value=2011>2011</option>
+					            <option value=2012>2012</option>
+					            <option value=2013>2013</option>
+					            <option value=2014>2014</option>
+					            <option value=2015>2015</option>
+					            <option value=2016>2016</option>
+					            <option value=2017>2017</option>
+					            <option value=2018>2018</option>
+					            <option value=2019>2019</option>
+					            <option value=2020>2020</option>
+					            <option value=2021>2021</option>
+					            <option value=2022>2022</option>
+					            <option value=2023>2023</option>
+					            <option value=2024>2024</option>
+					            <option value=2025>2025</option>
+					            <option value=2026>2026</option>
+					            <option value=2027>2027</option>
+					            <option value=2028>2028</option>
+					            <option value=2029>2029</option>
+					            <option value=2030>2030</option>
+					        </select>
+					    </form>
+			    	</div>
+			    </div>
+
+
+			</div>
+			
+			<!-- FIN CALENDARIO -->
 
   		</div>		
 	</section>
@@ -211,6 +315,9 @@
 	<script src="styles/js/vendor/jquery-2.2.4.min.js"></script>
 	<script src="styles/js/vendor/bootstrap.min.js"></script>
 	<script src="styles/js/jquery.ajaxchimp.min.js"></script>
+
+	<!-- JS para el calendario -->
+	<script src="styles/js/calendar.js"></script>
 	
 	<!-- PARALLAX EFFECT -->
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.styles/js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
@@ -220,6 +327,7 @@
 	<!-- JS -->
 	<script src="styles/js/jquery.sticky.js"></script>
 	<script src="styles/js/main.js"></script>
+
 </body>
 
 </html>
