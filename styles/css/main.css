@@ -15,9 +15,6 @@
 	font-family: 'bebas_neueregular';
 }
 
-.font4{
-	font-family: 'vogueregular';
-}
 
 
 /*----- PARALLAX -----*/
@@ -428,7 +425,12 @@
 	color: #DECCB8;
 }
 
-.my-footer p, a, td{
+.my-footer p, a{
+	color: #DECCB8;
+	font-size: 14px;
+}
+
+.my-footer td{
 	color: #DECCB8;
 	font-size: 14px;
 }
@@ -588,6 +590,8 @@
 /*----- CARRUSEL DE HOSPEDAJE Y EXPERIENCIAS -----*/
 .cont-sec-carr-br{
 	border-right: 1px solid #DECCB8;
+	padding-left: 10px;
+	padding-right: 10px; 
 }
 
 .cont-sec-carr-txt p{
@@ -603,6 +607,8 @@
 }
 
 
+
+
 /*----- Controles para Hospedaje -----*/
 .carr-prev a{
 	height: 100%;
@@ -616,6 +622,73 @@
 
 
 
+
+/*----- Zoom de la imagen en hover -----*/
+.parent {
+    width: 160px;
+    height: 160px;
+    overflow: hidden;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 991px){
+	.parent{
+		width: 250px;
+		height: 250px;
+	}
+}
+
+.child {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -o-transition: all .5s;
+    transition: all .5s;
+}
+
+.parent:hover .child, .parent:focus .child {
+    -ms-transform: scale(1.2);
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+
+.div-img:hover{
+	transform: scale(1.2);
+}
+
+
+
+
+/*---------------------------------------------------------*/
+/*===== IMÁGENES DE FORNDO PARA CARRUSEL DE HOSPEDAJE =====*/
+.bg-host-1 {background-image: url(../images/hospedaje/host-1.png);}
+.bg-host-2 {background-image: url(../images/hospedaje/host-1.png);}
+.bg-host-3 {background-image: url(../images/hospedaje/host-1.png);}
+.bg-host-4 {background-image: url(../images/hospedaje/host-1.png);}
+.bg-host-5 {background-image: url(../images/hospedaje/host-1.png);}
+.bg-host-6 {background-image: url(../images/hospedaje/host-1.png);}
+.bg-host-7 {background-image: url(../images/hospedaje/host-1.png);}
+.bg-host-8 {background-image: url(../images/hospedaje/host-1.png);}
+.bg-host-9 {background-image: url(../images/hospedaje/host-1.png);}
+
+/*===== IMÁGENES DE FORNDO PARA CARRUSEL DE EXPERIENCIAS =====*/
+.bg-exp-1 {background-image: url(../images/experiencias/exp-1.png);}
+.bg-exp-2 {background-image: url(../images/experiencias/exp-1.png);}
+.bg-exp-3 {background-image: url(../images/experiencias/exp-1.png);}
+.bg-exp-4 {background-image: url(../images/experiencias/exp-1.png);}
+.bg-exp-5 {background-image: url(../images/experiencias/exp-1.png);}
+.bg-exp-6 {background-image: url(../images/experiencias/exp-1.png);}
+.bg-exp-7 {background-image: url(../images/experiencias/exp-1.png);}
+.bg-exp-8 {background-image: url(../images/experiencias/exp-1.png);}
+.bg-exp-9 {background-image: url(../images/experiencias/exp-1.png);}
 
 
 
