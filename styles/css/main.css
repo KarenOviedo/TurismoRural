@@ -660,12 +660,6 @@
 }
 
 
-.div-img:hover{
-	transform: scale(1.2);
-}
-
-
-
 
 /*---------------------------------------------------------*/
 /*===== IMÁGENES DE FORNDO PARA CARRUSEL DE HOSPEDAJE =====*/
@@ -697,50 +691,66 @@
 /*================================================================================*/
 /*================================================================================*/
 
-.calendar-top th{
-	font-family: 'quicksandbold';
-	font-size: 18px;
-	text-align: center;
+.nav-calendar a{
+	font-size: 35px;
 }
 
-.calendar-table td{
-	font-family: 'quicksandbold';
-	color: black;
-	text-align: right;
-	height: 90px;
+.nav-calendar a:hover{
+	color: #c04e4e;
 }
 
-.bg-infoo{
-	color: white !important;
-	background-color: #812e2e !important;
-	font-size: 20px;
+
+/*----- Espacio para las imágenes de los eventos importantes -----*/
+.parent2 {
+    width: 170px;
+    height: 170px;
+    cursor: pointer;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 30px;
 }
 
-.bg-infoo2{
-	color: #5F5B55 !important;
-	background-color: #DECCB8 !important;
-	font-size: 20px;
+
+.child2 {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
-.calendar-form{
-	width: auto;
-	margin: 0 auto;
+
+.cont-sec-carr-txt2{
+	margin: 0px 25px 0px 25px;
 }
 
-.calendar-btn button{
-	background-color: Transparent;
-    background-repeat:no-repeat;
-    border: none;
-    cursor:pointer;
-    overflow: hidden;
-    outline:none;
-    color: #812e2e;
-    font-size: 22px;
+.cont-sec-carr-txt2 p{
+	font-size: 14px;
 }
 
-.calendar-btn button:focus {
-    border: none;
+.cal-bord-btm{
+	border-bottom: 1px solid #DECCB8;
 }
+
+.cal-bord-right{
+	border-right: 1px solid #DECCB8;
+}
+
+
+
+/*---------------------------------------------------------*/
+/*===== IMÁGENES PARA CARRUSEL DE EVENTOS IMPORTANTES =====*/
+/* JUNIO 2019 */
+.bg-ev-19-06-01 {background-image: url(../images/eventos/ev-19-06-01.jpg);}
+.bg-ev-19-06-02 {background-image: url(../images/eventos/ev-19-06-02.jpg);}
+.bg-ev-19-06-03 {background-image: url(../images/eventos/ev-19-06-03.jpg);}
+/* JULIO 2019 */
+.bg-ev-19-07-01 {background-image: url(../images/eventos/ev-19-07-01.jpg);}
+.bg-ev-19-07-02 {background-image: url(../images/eventos/ev-19-07-02.jpg);}
+.bg-ev-19-07-03 {background-image: url(../images/eventos/ev-19-07-03.jpg);}
+/* AGOSTO 2019 */
+.bg-ev-19-08-01 {background-image: url(../images/eventos/ev-19-08-01.jpg);}
+.bg-ev-19-08-02 {background-image: url(../images/eventos/ev-19-08-02.jpg);}
+.bg-ev-19-08-03 {background-image: url(../images/eventos/ev-19-08-03.jpg);}
 
 
 /*										ABOUT									  */
@@ -755,4 +765,30 @@
 .table-contacto {
    margin: 0 auto !important;
    width: 50% !important; 
+}
+
+
+
+
+
+
+/*==========================================================*/
+/*                   		MAIL	 	                    */
+/*==========================================================*/
+.bloq-sup{
+	width: 100%;
+	height: 200px;
+	background-color: #812e2e;
+}
+
+.bloq-inf{
+	width: 100%;
+	height: 200px;
+	background-color: #DECCB8;
+} 
+
+.bloq-front{
+	width: 90%;
+	height: 300px;
+	border: 10x solid red;
 }

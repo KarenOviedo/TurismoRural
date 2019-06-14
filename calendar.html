@@ -27,9 +27,6 @@
 
 	<!--FONT AWESOME-->
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-
-	<!-- Calendario externo -->
-	<link href="calendar-table.html" rel="import" />
 	
 </head>
 
@@ -93,105 +90,668 @@
 	<!-- FIN PRIMERA SECCIÓN: TÍTULO PRINCIPAL -->
 
 
-	<br><br><br>
+	<br>
 
 
 	<!-- SEGUNDA SECCIÓN: Calendario -->
   	<!--==================================================================-->	
   	<section class="cont-sec-area">
   		<div class="container">
+
+  			<!-- DESCRIPCIÓN INICIAL -->
   			<div class="row">
   				<div class="col-lg-1"></div>
   				<div class="col-lg-10 text-justify cont-sec-txt align-middle">
-
-  					<h2 class="font3">Eventos de <span id="thisMonth"></span>, <span id="thisYear"></span></h2>
-  					<br>
   					<p>
   						En este calendario, puedes consultar eventos significativos de las regiones de la Sierra Gorda Queretana, para que puedas planear tu viaje en conjunto con nuestras <a href="services.html#hospedaje">opciones de alojamiento</a>.
-  					</p>
+  					</p> 
   					<br><br>
-
-
-  					<table class="table">
-  						<thead>
-  							<tr>
-	  							<th>Fecha</th>
-	  							<th>Lugar</th>
-	  							<th>Evento</th>
-  							</tr>
-  						</thead>
-  						<tbody>
-  							<tr>
-  								<th>2019</th>
-  							</tr>
-  							<tr>
-  								<td>
-  									Del 26 de Abril al 5 de Mayo
-  								</td>
-  								<td>Amealco</td>
-  								<td>Tradicional Feria Anual del municipio de Amealco</td>
-  							</tr>
-  							<tr>
-  								<td> 00 de Mayo</td>
-  								<td>Jalpan de Serra</td>
-  								<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis ipsum lectus.</td>
-  							</tr>
-  							<tr>
-  								<td> 00 de Septiembre</td>
-  								<td>Jalpan de Serra</td>
-  								<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis ipsum lectus.</td>
-  							</tr>
-  							<tr>
-  								<td> 00 de Noviembre</td>
-  								<td>Jalpan de Serra</td>
-  								<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis ipsum lectus.</td>
-  							</tr>
-  							<tr>
-  								<td> 00 de Diciembre</td>
-  								<td>Jalpan de Serra</td>
-  								<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis ipsum lectus.</td>
-  							</tr>
-  							<tr>
-  								<th>2020</th>
-  							</tr>
-  							<tr>
-  								<td> 00 de Mayo</td>
-  								<td>Jalpan de Serra</td>
-  								<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis ipsum lectus.</td>
-  							</tr>
-  							<tr>
-  								<td> 00 de Septiembre</td>
-  								<td>Jalpan de Serra</td>
-  								<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis ipsum lectus.</td>
-  							</tr>
-  							<tr>
-  								<td> 00 de Noviembre</td>
-  								<td>Jalpan de Serra</td>
-  								<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis ipsum lectus.</td>
-  							</tr>
-  							<tr>
-  								<td> 00 de Diciembre</td>
-  								<td>Jalpan de Serra</td>
-  								<td>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla lobortis ipsum lectus.</td>
-  							</tr>
-  						</tbody>
-  					</table>
   				</div>
   			</div>
+			
+
+
+			<!-- CARRUSEL DE CALENDARIOS -->
+			<div class="row">
+
+				<!-- NAVEGACIÓN - SLIDE ANTERIOR -->
+				<div class="col-lg-1">
+					<div class="nav-calendar">
+  						<h2>
+  							<a href="#carousel-calendarios" data-slide="prev">
+		                        <span class="fa fa-caret-left"></span>
+		                    </a>
+  						</h2>
+  					</div>
+				</div>
+				<!-- FIN NAVEGACIÓN - SLIDE ANTERIOR -->
+
+
+  				<div class="col-lg-10 text-justify cont-sec-txt align-middle">
+
+					<div style="height: auto;">
+						<div id="carousel-calendarios" class="carousel slide" data-ride="carousel" data-interval="false" data-wrap="false">
+		                    <div class="carousel-inner">
+     
+                            	
+                            	<!-- JUNIO -->
+                            	<!--=================================================================================-->
+		                        <div class="carousel-item active text-center">
+		                        	
+		                        	<!-- TÍTULO DEL PERIODO -->
+		                        	<div class="text-center">
+		                        		<h2 class="font3">Eventos de Junio, 2019</h2>
+		                        		<hr>
+		                        	</div>
+                                	
+                                	<div class="row">
+
+                                		<!--EVENTO 1-->
+                                		<div class="col-lg-4 cal-bord-btm cal-bord-right">		
+                                			<div class="parent2" data-toggle="modal" data-target="#modal-19-06-01">
+										        <div class="child2 bg-ev-19-06-01"></div>
+										    </div>
+										    <div class="text-justify">
+			                                    <h5 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+			                                    <div class="cont-sec-carr-txt2">
+				                                    <p>
+				                                    	<span class="fa fa-calendar-alt"></span> 01 de junio<br>
+				                                    	<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+				                                    	<a href="" data-toggle="modal" data-target="#modal-19-06-01">
+				                                    		<span class="fa fa-search-plus"></span> Ver Más
+				                                    	</a>
+				                                    </p>
+			                                    </div>
+	                                    	</div>
+	                                    	<br>
+                                		</div>
+
+
+                                		<!--EVENTO 2-->
+                                		<div class="col-lg-4 cal-bord-btm cal-bord-right">
+                                			<div class="parent2" data-toggle="modal" data-target="#modal-19-06-02">
+										        <div class="child2 bg-ev-19-06-02"></div>
+										    </div>
+										    <div class="text-justify">
+			                                    <h5 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+			                                    <div class="cont-sec-carr-txt2">
+				                                    <p>
+				                                    	<span class="fa fa-calendar-alt"></span> 02 de junio<br>
+				                                    	<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+				                                    	<a href="" data-toggle="modal" data-target="#modal-19-06-02">
+				                                    		<span class="fa fa-search-plus"></span> Ver Más
+				                                    	</a>
+				                                    </p>
+			                                    </div>
+	                                    	</div>
+	                                    	<br>
+                                		</div>
+                                		
+
+                                		<!-- EVENTO 3 -->
+                                		<div class="col-lg-4 cal-bord-btm">
+                                			<div class="parent2" data-toggle="modal" data-target="#modal-19-06-03">
+										        <div class="child2 bg-ev-19-06-03"></div>
+										    </div>
+										    <div class="text-justify">
+			                                    <h5 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+			                                    <div class="cont-sec-carr-txt2">
+				                                    <p>
+				                                    	<span class="fa fa-calendar-alt"></span> 03 de junio<br>
+				                                    	<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+				                                    	<a href="" data-toggle="modal" data-target="#modal-19-06-03">
+				                                    		<span class="fa fa-search-plus"></span> Ver Más
+				                                    	</a>
+				                                    </p>
+			                                    </div>
+	                                    	</div>
+	                                    	<br>
+                                		</div>
+                           
+                                	</div>
+                                	
+
+                                	<div class="row">
+                                		
+                                		<!-- EVENTO 4 -->
+                                		<div class="col-lg-4 cal-bord-right">
+                                			
+                                		</div>
+
+
+                                		<!-- EVENTO 5 -->
+                                		<div class="col-lg-4 cal-bord-right">
+                                			
+                                		</div>
+                                		
+
+                                		<!-- EVENTO 6 -->
+                                		<div class="col-lg-4">
+                                			
+                                		</div>
+                                		
+                              
+                                	</div>
+		                        </div>
+
+
+
+
+		                        <!-- Julio -->
+		                        <!--=================================================================================-->
+		                        <div class="carousel-item">
+                                	
+		                        	<!-- TÍTULO DEL PERIODO -->
+		                        	<div class="text-center">
+		                        		<h2 class="font3">Eventos de Julio, 2019</h2>
+		                        		<hr>
+		                        	</div>
+                                	
+                                	<div class="row">
+
+                                		<!--EVENTO 1-->
+                                		<div class="col-lg-4 cal-bord-btm cal-bord-right">		
+                                			<div class="parent2" data-toggle="modal" data-target="#modal-19-07-01">
+										        <div class="child2 bg-ev-19-07-01"></div>
+										    </div>
+										    <div class="text-justify">
+			                                    <h5 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+			                                    <div class="cont-sec-carr-txt2">
+				                                    <p>
+				                                    	<span class="fa fa-calendar-alt"></span> 01 de julio<br>
+				                                    	<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+				                                    	<a href="" data-toggle="modal" data-target="#modal-19-07-01">
+				                                    		<span class="fa fa-search-plus"></span> Ver Más
+				                                    	</a>
+				                                    </p>
+			                                    </div>
+	                                    	</div>
+	                                    	<br>
+                                		</div>
+
+
+                                		<!--EVENTO 2-->
+                                		<div class="col-lg-4 cal-bord-btm cal-bord-right">
+                                			<div class="parent2" data-toggle="modal" data-target="#modal-19-07-02">
+										        <div class="child2 bg-ev-19-07-02"></div>
+										    </div>
+										    <div class="text-justify">
+			                                    <h5 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+			                                    <div class="cont-sec-carr-txt2">
+				                                    <p>
+				                                    	<span class="fa fa-calendar-alt"></span> 02 de julio<br>
+				                                    	<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+				                                    	<a href="" data-toggle="modal" data-target="#modal-19-07-02">
+				                                    		<span class="fa fa-search-plus"></span> Ver Más
+				                                    	</a>
+				                                    </p>
+			                                    </div>
+	                                    	</div>
+	                                    	<br>
+                                		</div>
+                                		
+
+                                		<!-- EVENTO 3 -->
+                                		<div class="col-lg-4 cal-bord-btm">
+                                			<div class="parent2" data-toggle="modal" data-target="#modal-19-07-03">
+										        <div class="child2 bg-ev-19-07-03"></div>
+										    </div>
+										    <div class="text-justify">
+			                                    <h5 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+			                                    <div class="cont-sec-carr-txt2">
+				                                    <p>
+				                                    	<span class="fa fa-calendar-alt"></span> 03 de julio<br>
+				                                    	<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+				                                    	<a href="" data-toggle="modal" data-target="#modal-19-07-03">
+				                                    		<span class="fa fa-search-plus"></span> Ver Más
+				                                    	</a>
+				                                    </p>
+			                                    </div>
+	                                    	</div>
+	                                    	<br>
+                                		</div>
+                           
+                                	</div>
+                                	
+
+                                	<div class="row">
+                                		
+                                		<!-- EVENTO 4 -->
+                                		<div class="col-lg-4 cal-bord-right">
+                                			
+                                		</div>
+
+
+                                		<!-- EVENTO 5 -->
+                                		<div class="col-lg-4 cal-bord-right">
+                                			
+                                		</div>
+                                		
+
+                                		<!-- EVENTO 6 -->
+                                		<div class="col-lg-4">
+                                			
+                                		</div>
+                                		
+                              
+                                	</div>
+
+		                        </div>
+
+
+
+		                        <!-- Agosto -->
+		                        <!--=================================================================================-->
+		                        <div class="carousel-item">
+		                            <!-- TÍTULO DEL PERIODO -->
+		                        	<div class="text-center">
+		                        		<h2 class="font3">Eventos de Agosto, 2019</h2>
+		                        		<hr>
+		                        	</div>
+                                	
+                                	<div class="row">
+
+                                		<!--EVENTO 1-->
+                                		<div class="col-lg-4 cal-bord-btm cal-bord-right">		
+                                			<div class="parent2" data-toggle="modal" data-target="#modal-19-08-01">
+										        <div class="child2 bg-ev-19-08-01"></div>
+										    </div>
+										    <div class="text-justify">
+			                                    <h5 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+			                                    <div class="cont-sec-carr-txt2">
+				                                    <p>
+				                                    	<span class="fa fa-calendar-alt"></span> 01 de agosto<br>
+				                                    	<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+				                                    	<a href="" data-toggle="modal" data-target="#modal-19-08-01">
+				                                    		<span class="fa fa-search-plus"></span> Ver Más
+				                                    	</a>
+				                                    </p>
+			                                    </div>
+	                                    	</div>
+	                                    	<br>
+                                		</div>
+
+
+                                		<!--EVENTO 2-->
+                                		<div class="col-lg-4 cal-bord-btm cal-bord-right">
+                                			<div class="parent2" data-toggle="modal" data-target="#modal-19-08-02">
+										        <div class="child2 bg-ev-19-08-02"></div>
+										    </div>
+										    <div class="text-justify">
+			                                    <h5 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+			                                    <div class="cont-sec-carr-txt2">
+				                                    <p>
+				                                    	<span class="fa fa-calendar-alt"></span> 02 de agosto<br>
+				                                    	<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+				                                    	<a href="" data-toggle="modal" data-target="#modal-19-08-02">
+				                                    		<span class="fa fa-search-plus"></span> Ver Más
+				                                    	</a>
+				                                    </p>
+			                                    </div>
+	                                    	</div>
+	                                    	<br>
+                                		</div>
+                                		
+
+                                		<!-- EVENTO 3 -->
+                                		<div class="col-lg-4 cal-bord-btm">
+                                			<div class="parent2" data-toggle="modal" data-target="#modal-19-08-03">
+										        <div class="child2 bg-ev-19-08-03"></div>
+										    </div>
+										    <div class="text-justify">
+			                                    <h5 class="text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit</h5>
+			                                    <div class="cont-sec-carr-txt2">
+				                                    <p>
+				                                    	<span class="fa fa-calendar-alt"></span> 03 de agosto<br>
+				                                    	<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+				                                    	<a href="" data-toggle="modal" data-target="#modal-19-08-03">
+				                                    		<span class="fa fa-search-plus"></span> Ver Más
+				                                    	</a>
+				                                    </p>
+			                                    </div>
+	                                    	</div>
+	                                    	<br>
+                                		</div>
+                           
+                                	</div>
+                                	
+
+                                	<div class="row">
+                                		
+                                		<!-- EVENTO 4 -->
+                                		<div class="col-lg-4 cal-bord-right">
+                                			
+                                		</div>
+
+
+                                		<!-- EVENTO 5 -->
+                                		<div class="col-lg-4 cal-bord-right">
+                                			
+                                		</div>
+                                		
+
+                                		<!-- EVENTO 6 -->
+                                		<div class="col-lg-4">
+                                			
+                                		</div>
+                                		
+                              
+                                	</div>
+		                        </div>
+
+
+		                    </div>
+		                </div>
+					</div>
+					
+				</div>
+
+
+
+				<div class="col-lg-1">
+					<div class="nav-calendar" style="margin-left: 30px;">
+  						<h2>
+	  						<a href="#carousel-calendarios" data-slide="next">
+		                        <span class="fa fa-caret-right"></span>
+		                    </a>
+  						</h2>
+  					</div>
+				</div>
+			</div>
+			<!-- FIN CARRUSEL DE CALENDARIOS -->
+
+  				
   		</div>
   	</section>
-  	<!-- FIN TERCERA SECCIÓN -->
+  	<!-- FIN SEGUNDA SECCIÓN -->
+
+
+ 
 
 
 
-  	<br><br><br>
+  	<!--====================================================================================================-->
+  	<!--====================================================================================================-->
+  									<!-- MODALES PARA CADA EVENTO IMPORTANTE -->
+  	<!--====================================================================================================-->
+  	<!--====================================================================================================-->
 
+
+
+	<!-- JUNIO -->
+	<!--=================================================================================-->  	
 	
+	<!-- EVENTO 1 -->
+	<div class="modal fade" id="modal-19-06-01" tabindex="-1" role="dialog" aria-labelledby="modal-19-06-01" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered" role="document">
+	    	<div class="modal-content">
+	        	<div class="modal-header">
+      				<h5 class="modal-title" id="modal-19-06-11Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+	          		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	           			<span aria-hidden="true">&times;</span>
+	          		</button>
+	        	</div>
+		        <div class="modal-body">
+		        	<p>
+	            		<span class="fa fa-calendar-alt"></span> 01 de junio<br>
+	            		<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+	            	</p>
+	            	<p>
+	            		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque tempor porta. Nullam mauris libero, porttitor eu pharetra sit amet, dapibus eget magna. Aliquam at mi rhoncus, finibus libero at, tincidunt ipsum. Vivamus vitae libero mollis, gravida elit in, rutrum turpis. Nullam et viverra leo. <br><br>
+	            		Etiam bibendum est et ultrices varius. Aliquam dictum massa eros, eget accumsan felis tristique in. Proin ut ligula nisl. Cras diam mi, ultrices sit amet dapibus maximus, egestas non arcu. 
+	            	</p>
+		        </div>
+		        <div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+	        	</div>
+    		
+    		</div>
+	    </div>
+	</div>
 
 
-  	<section>
-  		<div ></div>
-  	</section>
+	<!-- EVENTO 2 -->
+	<div class="modal fade" id="modal-19-06-02" tabindex="-1" role="dialog" aria-labelledby="modal-19-06-02" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered" role="document">
+	    	<div class="modal-content">
+	        	<div class="modal-header">
+      				<h5 class="modal-title" id="modal-19-06-11Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+	          		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	           			<span aria-hidden="true">&times;</span>
+	          		</button>
+	        	</div>
+		        <div class="modal-body">
+		        	<p>
+	            		<span class="fa fa-calendar-alt"></span> 02 de junio<br>
+	            		<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+	            	</p>
+	            	<p>
+	            		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque tempor porta. Nullam mauris libero, porttitor eu pharetra sit amet, dapibus eget magna. Aliquam at mi rhoncus, finibus libero at, tincidunt ipsum. Vivamus vitae libero mollis, gravida elit in, rutrum turpis. Nullam et viverra leo. <br><br>
+	            		Etiam bibendum est et ultrices varius. Aliquam dictum massa eros, eget accumsan felis tristique in. Proin ut ligula nisl. Cras diam mi, ultrices sit amet dapibus maximus, egestas non arcu. 
+	            	</p>
+		        </div>
+		        <div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+	        	</div>
+    		
+    		</div>
+	    </div>
+	</div>
+
+
+	<!-- EVENTO 3 -->
+	<div class="modal fade" id="modal-19-06-03" tabindex="-1" role="dialog" aria-labelledby="modal-19-06-03" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered" role="document">
+	    	<div class="modal-content">
+	        	<div class="modal-header">
+      				<h5 class="modal-title" id="modal-19-06-11Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+	          		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	           			<span aria-hidden="true">&times;</span>
+	          		</button>
+	        	</div>
+		        <div class="modal-body">
+		        	<p>
+	            		<span class="fa fa-calendar-alt"></span> 03 de junio<br>
+	            		<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+	            	</p>
+	            	<p>
+	            		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque tempor porta. Nullam mauris libero, porttitor eu pharetra sit amet, dapibus eget magna. Aliquam at mi rhoncus, finibus libero at, tincidunt ipsum. Vivamus vitae libero mollis, gravida elit in, rutrum turpis. Nullam et viverra leo. <br><br>
+	            		Etiam bibendum est et ultrices varius. Aliquam dictum massa eros, eget accumsan felis tristique in. Proin ut ligula nisl. Cras diam mi, ultrices sit amet dapibus maximus, egestas non arcu. 
+	            	</p>
+		        </div>
+		        <div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+	        	</div>
+    		
+    		</div>
+	    </div>
+	</div>
+
+
+
+	<!-- JULIO -->
+	<!--=================================================================================-->  	
+	
+	<!-- EVENTO 1 -->
+	<div class="modal fade" id="modal-19-07-01" tabindex="-1" role="dialog" aria-labelledby="modal-19-07-01" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered" role="document">
+	    	<div class="modal-content">
+	        	<div class="modal-header">
+      				<h5 class="modal-title" id="modal-19-06-11Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+	          		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	           			<span aria-hidden="true">&times;</span>
+	          		</button>
+	        	</div>
+		        <div class="modal-body">
+		        	<p>
+	            		<span class="fa fa-calendar-alt"></span> 01 de julio<br>
+	            		<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+	            	</p>
+	            	<p>
+	            		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque tempor porta. Nullam mauris libero, porttitor eu pharetra sit amet, dapibus eget magna. Aliquam at mi rhoncus, finibus libero at, tincidunt ipsum. Vivamus vitae libero mollis, gravida elit in, rutrum turpis. Nullam et viverra leo. <br><br>
+	            		Etiam bibendum est et ultrices varius. Aliquam dictum massa eros, eget accumsan felis tristique in. Proin ut ligula nisl. Cras diam mi, ultrices sit amet dapibus maximus, egestas non arcu. 
+	            	</p>
+		        </div>
+		        <div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+	        	</div>
+    		
+    		</div>
+	    </div>
+	</div>
+
+
+	<!-- EVENTO 2 -->
+	<div class="modal fade" id="modal-19-07-02" tabindex="-1" role="dialog" aria-labelledby="modal-19-07-02" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered" role="document">
+	    	<div class="modal-content">
+	        	<div class="modal-header">
+      				<h5 class="modal-title" id="modal-19-06-11Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+	          		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	           			<span aria-hidden="true">&times;</span>
+	          		</button>
+	        	</div>
+		        <div class="modal-body">
+		        	<p>
+	            		<span class="fa fa-calendar-alt"></span> 02 de julio<br>
+	            		<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+	            	</p>
+	            	<p>
+	            		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque tempor porta. Nullam mauris libero, porttitor eu pharetra sit amet, dapibus eget magna. Aliquam at mi rhoncus, finibus libero at, tincidunt ipsum. Vivamus vitae libero mollis, gravida elit in, rutrum turpis. Nullam et viverra leo. <br><br>
+	            		Etiam bibendum est et ultrices varius. Aliquam dictum massa eros, eget accumsan felis tristique in. Proin ut ligula nisl. Cras diam mi, ultrices sit amet dapibus maximus, egestas non arcu. 
+	            	</p>
+		        </div>
+		        <div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+	        	</div>
+    		
+    		</div>
+	    </div>
+	</div>
+
+
+	<!-- EVENTO 3 -->
+	<div class="modal fade" id="modal-19-07-03" tabindex="-1" role="dialog" aria-labelledby="modal-19-07-03" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered" role="document">
+	    	<div class="modal-content">
+	        	<div class="modal-header">
+      				<h5 class="modal-title" id="modal-19-06-11Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+	          		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	           			<span aria-hidden="true">&times;</span>
+	          		</button>
+	        	</div>
+		        <div class="modal-body">
+		        	<p>
+	            		<span class="fa fa-calendar-alt"></span> 03 de julio<br>
+	            		<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+	            	</p>
+	            	<p>
+	            		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque tempor porta. Nullam mauris libero, porttitor eu pharetra sit amet, dapibus eget magna. Aliquam at mi rhoncus, finibus libero at, tincidunt ipsum. Vivamus vitae libero mollis, gravida elit in, rutrum turpis. Nullam et viverra leo. <br><br>
+	            		Etiam bibendum est et ultrices varius. Aliquam dictum massa eros, eget accumsan felis tristique in. Proin ut ligula nisl. Cras diam mi, ultrices sit amet dapibus maximus, egestas non arcu. 
+	            	</p>
+		        </div>
+		        <div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+	        	</div>
+    		
+    		</div>
+	    </div>
+	</div>
+
+
+
+
+
+	<!-- AGOSTO -->
+	<!--=================================================================================-->  	
+	
+	<!-- EVENTO 1 -->
+	<div class="modal fade" id="modal-19-08-01" tabindex="-1" role="dialog" aria-labelledby="modal-19-08-01" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered" role="document">
+	    	<div class="modal-content">
+	        	<div class="modal-header">
+      				<h5 class="modal-title" id="modal-19-06-11Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+	          		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	           			<span aria-hidden="true">&times;</span>
+	          		</button>
+	        	</div>
+		        <div class="modal-body">
+		        	<p>
+	            		<span class="fa fa-calendar-alt"></span> 01 de agosto<br>
+	            		<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+	            	</p>
+	            	<p>
+	            		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque tempor porta. Nullam mauris libero, porttitor eu pharetra sit amet, dapibus eget magna. Aliquam at mi rhoncus, finibus libero at, tincidunt ipsum. Vivamus vitae libero mollis, gravida elit in, rutrum turpis. Nullam et viverra leo. <br><br>
+	            		Etiam bibendum est et ultrices varius. Aliquam dictum massa eros, eget accumsan felis tristique in. Proin ut ligula nisl. Cras diam mi, ultrices sit amet dapibus maximus, egestas non arcu. 
+	            	</p>
+		        </div>
+		        <div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+	        	</div>
+    		
+    		</div>
+	    </div>
+	</div>
+
+
+	<!-- EVENTO 2 -->
+	<div class="modal fade" id="modal-19-08-02" tabindex="-1" role="dialog" aria-labelledby="modal-19-08-02" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered" role="document">
+	    	<div class="modal-content">
+	        	<div class="modal-header">
+      				<h5 class="modal-title" id="modal-19-06-11Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+	          		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	           			<span aria-hidden="true">&times;</span>
+	          		</button>
+	        	</div>
+		        <div class="modal-body">
+		        	<p>
+	            		<span class="fa fa-calendar-alt"></span> 02 de agosto<br>
+	            		<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+	            	</p>
+	            	<p>
+	            		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque tempor porta. Nullam mauris libero, porttitor eu pharetra sit amet, dapibus eget magna. Aliquam at mi rhoncus, finibus libero at, tincidunt ipsum. Vivamus vitae libero mollis, gravida elit in, rutrum turpis. Nullam et viverra leo. <br><br>
+	            		Etiam bibendum est et ultrices varius. Aliquam dictum massa eros, eget accumsan felis tristique in. Proin ut ligula nisl. Cras diam mi, ultrices sit amet dapibus maximus, egestas non arcu. 
+	            	</p>
+		        </div>
+		        <div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+	        	</div>
+    		
+    		</div>
+	    </div>
+	</div>
+
+
+	<!-- EVENTO 3 -->
+	<div class="modal fade" id="modal-19-08-03" tabindex="-1" role="dialog" aria-labelledby="modal-19-08-03" aria-hidden="true">
+	    <div class="modal-dialog modal-dialog-centered" role="document">
+	    	<div class="modal-content">
+	        	<div class="modal-header">
+      				<h5 class="modal-title" id="modal-19-06-11Title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h5>
+	          		<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+	           			<span aria-hidden="true">&times;</span>
+	          		</button>
+	        	</div>
+		        <div class="modal-body">
+		        	<p>
+	            		<span class="fa fa-calendar-alt"></span> 03 de agosto<br>
+	            		<span class="fa fa-map-marker-alt"></span> Jalpan de Serra, Querétaro, México<br>
+	            	</p>
+	            	<p>
+	            		Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pellentesque tempor porta. Nullam mauris libero, porttitor eu pharetra sit amet, dapibus eget magna. Aliquam at mi rhoncus, finibus libero at, tincidunt ipsum. Vivamus vitae libero mollis, gravida elit in, rutrum turpis. Nullam et viverra leo. <br><br>
+	            		Etiam bibendum est et ultrices varius. Aliquam dictum massa eros, eget accumsan felis tristique in. Proin ut ligula nisl. Cras diam mi, ultrices sit amet dapibus maximus, egestas non arcu. 
+	            	</p>
+		        </div>
+		        <div class="modal-footer">
+		        	<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+	        	</div>
+    		
+    		</div>
+	    </div>
+	</div>
+
+
 
 
 
@@ -291,21 +851,10 @@
 	<!-- JS -->
 	<script src="styles/js/jquery.sticky.js"></script>
 	<script src="styles/js/main.js"></script>
+	
 
 
-	<!-- FECHA -->
-	<script type="text/javascript">		
-		var d = new Date();
 
-        var monthNames = ["Enero", "Febrero", "Marzo", "Abril", "Mayo", "Junio", "Julio", "Agosto", "Septiembre", "Octubre", "Noviembre", "Diciembre"];
-		var id_month = d.getMonth();
-		var month = monthNames[id_month];
-
-		var year = d.getFullYear();
-
-		document.getElementById("thisMonth").innerHTML = month;
-		document.getElementById("thisYear").innerHTML = year;
-	</script>
 
 </body>
 
