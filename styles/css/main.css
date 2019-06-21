@@ -112,6 +112,10 @@
 	color:#fff;
 }
 
+.navbar-nav li{
+	margin: 10px 0px 10px 0px;
+}
+
 
 
 
@@ -138,7 +142,7 @@
 	font-size: 18px;
 	text-decoration: none;
 	color: #fff;
-	text-shadow: 2px 1px 5px #4ba206;
+	text-shadow: 2px 1px 5px #DECCB8;
 }
 
 
