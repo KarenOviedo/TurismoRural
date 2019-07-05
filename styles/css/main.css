@@ -40,6 +40,19 @@
   justify-content: center;
 }
 
+.parallax-div{
+	position: relative;
+	animation-name: example;
+	animation-duration: 2s;
+	animation-play-state: running;
+	animation-fill-mode: forwards;
+}
+
+@keyframes example {
+	from {bottom: -20px;}
+    to {bottom: 10px;}
+}
+
 
 
 
